@@ -15,43 +15,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/overlay.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-    <section style="background: url(&quot;assets/img/bg-pattern.png&quot;), linear-gradient(-92deg, black 0%, var(--bs-danger) 100%), transparent;width: 100%;height: 100vh;color: rgb(0,0,0);border-color: rgb(0,0,0);">
-        <nav class="navbar navbar-light navbar-expand-md sticky-top">
-            <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size: 25px;background: transparent;border-color: rgba(0, 0, 0, 0.9);border-top-color: rgba(0,;border-right-color: 0,;border-bottom-color: 0,;border-left-color: 0.9);"><strong>AT</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1" style="padding: 0px;">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);"><strong>HOME</strong></a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);"><strong>PORTFOLIO</strong></a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);"><strong>CONTACT</strong></a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);"><strong>RESUME</strong></a></li>
-                    </ul>
-                </div>
+<body style="background: #87b4f7;">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar gradient" style="height: 57px;">
+        <div class="container"><a class="navbar-brand logo" href="#" style="color: var(--bs-dark);font-size: 37px;"><strong>AT</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" style="color: var(--bs-dark);" href="#about"><strong>HOME</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#portfolio" style="color: var(--bs-dark);"><strong>PORTFOLIO</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#contact" style="color: var(--bs-dark);"><strong>CONTACT</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1lqCekA303ULifhskWvKzvjPNztavvcus/view?usp=sharing" style="color: var(--bs-dark);" target="_blank"><strong>RESUME</strong></a></li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead" id="about" style="margin: 72px;background: url(&quot;assets/img/home-bg.jpg&quot;) center / cover no-repeat;">
+        <div class="container" style="height: 490px;margin-top: -11px;margin-right: 0px;margin-bottom: -15px;margin-left: 0px;padding: 13px;"><img class="img-fluid border rounded-circle d-block mx-auto mb-5" src="assets/img/android-chrome-384x384.png" style="width: 335px;height: 339px;">
+            <h1 style="margin: 6px;margin-top: -15px;padding: 0px;color: var(--bs-dark);">ADITI TEWARI</h1>
+            <h2 class="font-weight-light mb-0" style="color: var(--bs-dark);">STUDENT</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio-block photography" style="background: rgb(180,197,222);">
+        <h1 class="text-uppercase text-center" style="color: var(--bs-dark);margin-top: 13px;"><strong><span style="text-decoration: underline;">Portfolio</span></strong></h1>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="align_photo" style="width: 450px;height: 342px;margin: 0px;padding: 53px;"><img class="border rounded-circle tada animated" src="assets/img/android-chrome-384x384.png" width="300" height="300" style="width: 366px;height: 357px;"></div>
-                </div>
-                <div class="col" style="padding: 5px;margin: 6px;margin-top: 54px;">
-                    <p class="text-center" style="font-size: 42px;padding: 70px;width: 444px;height: 213px;color: rgb(255,255,255);"><strong>ADITI TEWARI</strong></p>
-                    <p class="text-center" style="color: rgb(255,255,255);width: 453px;height: 34px;font-size: 42px;"><strong>STUDENT</strong></p>
-                </div>
+            <div class="row" style="padding: 25px;">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://www.hackerrank.com/adititewari?hr_r=1" target="_blank"><img class="img-fluid image" data-aos="zoom-in" src="assets/img/hr_main.png"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://studentambassadors.microsoft.com/" target="_blank"><img class="img-fluid image" data-aos="zoom-in" src="assets/img/mlsa_main.jpg"></a></div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://auth.geeksforgeeks.org/user/aditi_tewari/profile" target="_blank"><img class="img-fluid image" data-aos="zoom-in" src="assets/img/gfg_main.jpg"></a></div>
             </div>
         </div>
     </section>
-    <section data-aos="zoom-in" style="background: url(&quot;assets/img/bg-pattern.png&quot;), linear-gradient(3deg, black, rgb(22,26,65) 83%, white);">
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6">
-                    <section class="contact-clean" style="background: url(&quot;assets/img/download.jpg&quot;) center / contain;">
+                    <section class="contact-clean" style="background: url(&quot;assets/img/map-image.png&quot;) center / cover no-repeat, linear-gradient(3deg, black 0%, var(--bs-blue) 66%, rgb(210,210,210) 100%, white 100%), transparent;">
                         <form data-bss-recipient="d46a6c259cedccd36c30d21b2170f205">
                             <h2 class="text-center">Contact Me</h2>
                             <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name" style="border-color: var(--bs-dark);"></div>
@@ -64,19 +68,22 @@
             </div>
         </div>
     </section>
-    <section style="background: #000000;border-color: rgb(0,0,0);">
+    <section id="social" style="background: #000000;border-color: rgb(0,0,0);">
         <div class="row">
             <div class="col">
                 <div class="social-icons"><a href="https://twitter.com/adititewari13" target="_blank"><i class="icon ion-social-twitter" data-bss-hover-animate="rubberBand" style="background: var(--bs-white);"></i></a><a href="https://github.com/adititewari13" target="_blank"><i class="icon ion-social-github" data-bss-hover-animate="rubberBand" style="background: var(--bs-white);"></i></a><a href="https://www.linkedin.com/in/adititewari/" target="_blank"><i class="icon ion-social-linkedin" data-bss-hover-animate="rubberBand" style="background: var(--bs-white);"></i></a><a target="_blank" href="https://www.instagram.com/nightingale1311/"><i class="icon ion-social-instagram" data-bss-hover-animate="rubberBand" style="background: var(--bs-white);"></i></a></div>
             </div>
         </div>
     </section>
+    <div class="text-center text-white copyright py-4" id="cr">
+        <div class="container"><small style="color: var(--bs-dark);">Copyright © AT 2021</small></div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/stylish-portfolio.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
